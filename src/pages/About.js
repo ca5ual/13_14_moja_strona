@@ -1,3 +1,9 @@
-export default function About () {
-    return<h1>About</h1>
-}
+import { Component } from "react";
+export default class About extends Component () {
+    render () {
+      return (
+          <h1>About</h1>
+      )
+    }
+      
+  }

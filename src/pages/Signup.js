@@ -1,3 +1,9 @@
-export default function Pricing () {
-    return<h1>Sign Up</h1>
-}
+import { Component } from "react";
+export default class Signup extends Component () {
+    render () {
+      return (
+          <h1>Sign Up</h1>
+      )
+    }
+      
+  }

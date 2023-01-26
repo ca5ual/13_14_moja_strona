@@ -1,3 +1,9 @@
-export default function Pricing () {
-    return<h1>Photo</h1>
-}
+import { Component } from "react";
+export default class Photo extends Component () {
+    render () {
+      return (
+          <h1>Photo</h1>
+      )
+    }
+      
+  }

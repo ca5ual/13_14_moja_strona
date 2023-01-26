@@ -1,3 +1,9 @@
-export default function Pricing () {
-    return<h1>Video</h1>
-}
+import { Component } from "react";
+export default class Video extends Component () {
+    render () {
+      return (
+          <h1>Video</h1>
+      )
+    }
+      
+  }
